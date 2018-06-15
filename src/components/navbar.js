@@ -26,7 +26,7 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/hosts">
+                <Link className="nav-link" to="/features">
                   Features
                 </Link>
               </li>
@@ -36,7 +36,11 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/setup">
+                <a
+                  className="nav-link"
+                  target="_blank"
+                  href="https://discord.gg/EkDSE5e"
+                >
                   Community
                 </a>
               </li>
@@ -46,9 +50,18 @@ class Navbar extends Component {
                 <a
                   className="nav-link"
                   target="_blank"
-                  href="https://www.patreon.com/manbabies"
+                  href="https://www.patreon.com/viav"
                 >
                   Donate
+                </a>
+              </li>
+              <li>
+                <a
+                  className="nav-link"
+                  target="_blank"
+                  href="https://github.com/BrandonDyer64/Viav"
+                >
+                  GitHub
                 </a>
               </li>
             </ul>

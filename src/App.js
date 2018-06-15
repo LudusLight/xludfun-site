@@ -5,7 +5,7 @@ import Navbar from './components/navbar'
 
 import Home from './pages/home'
 import Add from './pages/add'
-import Donate from './pages/donate'
+import Features from './pages/features'
 import NotFound from './pages/notFound'
 
 console.log('this is react')
@@ -20,10 +20,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/add" component={Add} />
-              <Route path="/certified" component={Home} />
-              <Route path="/host_certified" component={Home} />
-              <Route path="/setup" component={Home} />
-              <Route path="/donate" component={Donate} />
+              <Route path="/features" component={Features} />
               <Route path="*" component={NotFound} />
             </Switch>
 

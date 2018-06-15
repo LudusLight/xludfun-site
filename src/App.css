@@ -9,8 +9,30 @@
   height: 100%;
 }
 
+.bg-gray-dark {
+  background-color: var(--gray-dark);
+}
+
 body {
   height: 100%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+small {
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
 }
 
 #root {
@@ -21,6 +43,12 @@ body {
   height: 100%;
 }
 
+.vcenter-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .bg-dark {
   background-color: var(--dark) !important;
 }
@@ -29,9 +57,18 @@ body {
   background-color: var(--dark) !important;
 }
 
+p {
+  text-align: justify;
+}
+
 a {
   color: var(--primary);
   -webkit-transition: color 0.5s; /* Safari */
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .container {
@@ -90,8 +127,90 @@ header {
   text-align: center;
 }
 
+header p {
+  text-align: center;
+}
+
 .btn-large {
   padding: 15px 30px;
+}
+
+.features-page section {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.channels-img-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.channels-img {
+  display: inline-block;
+  margin: auto;
+}
+.channels-img img {
+  animation: App-logo-spin infinite 8s linear;
+  width: 400px;
+  max-width: 100%;
+}
+
+.radio-img-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.radio-img {
+  display: inline-block;
+  margin: auto;
+}
+.radio-img img {
+  animation: App-radio infinite 1s linear;
+  width: 200px;
+  max-width: 100%;
+}
+
+.message-img-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.message-img {
+  display: inline-block;
+  margin: auto;
+}
+.message-img img {
+  animation: App-message infinite 4s linear;
+  width: 300px;
+  max-width: 100%;
+}
+
+.viav-multi-img-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.viav-multi-img {
+  display: inline-block;
+  margin: auto;
+}
+.viav-multi-img img {
+  width: 50px;
+  max-width: 100%;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+.viav-multi-img img:nth-child(1) {
+  animation: App-viav-multi-1 infinite 4s linear;
+}
+.viav-multi-img img:nth-child(2) {
+  animation: App-viav-multi-2 infinite 5s linear;
+}
+.viav-multi-img img:nth-child(3) {
+  animation: App-viav-multi-1 infinite 6s linear;
 }
 
 .App-logo {
@@ -155,13 +274,6 @@ header {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
-
-  /*from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }*/
 }
 @keyframes App-footer-spin {
   0%,
@@ -174,11 +286,114 @@ header {
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
-
+}
+@keyframes App-radio {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  0%,
+  100% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  10%,
+  40%,
+  60%,
+  90% {
+    -webkit-transform: translateY(30px) rotate(0deg);
+    transform: translateY(30px) rotate(0deg);
+  }
   /*from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }*/
+}
+
+@keyframes App-viav-multi-1 {
+  0%,
+  100% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+@keyframes App-viav-multi-2 {
+  0%,
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+}
+
+@keyframes App-message {
+  0%,
+  20% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    width: 300px;
+    opacity: 0;
+  }
+  30%,
+  90% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    width: 300px;
+    opacity: 1;
+  }
+  100% {
+    width: 400px;
+    opacity: 0;
+  }
+}
+
+.music-button-section .btn {
+  margin: 25px;
+}
+
+.music-button-section .btn:nth-child(1) {
+  animation: App-button-hover infinite 6s linear;
+}
+.music-button-section .btn:nth-child(2) {
+  animation: App-button-hover infinite 7s linear;
+}
+.music-button-section .btn:nth-child(3) {
+  animation: App-button-hover infinite 5s linear;
+}
+.music-button-section .btn:nth-child(4) {
+  animation: App-button-hover infinite 6s linear;
+}
+.music-button-section .btn:nth-child(5) {
+  animation: App-button-hover infinite 5s linear;
+}
+
+@keyframes App-button-hover {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
