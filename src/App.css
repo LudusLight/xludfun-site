@@ -49,6 +49,17 @@ h3 {
   align-items: center;
 }
 
+.hcenter-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hcenter-parent iframe {
+  margin: 10px;
+}
+
 .bg-dark {
   background-color: var(--dark) !important;
 }

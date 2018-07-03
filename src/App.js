@@ -6,6 +6,7 @@ import Navbar from './components/navbar'
 import Home from './pages/home'
 import Add from './pages/add'
 import Features from './pages/features'
+import Stream from './pages/stream'
 import NotFound from './pages/notFound'
 
 console.log('this is react')
@@ -21,6 +22,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/add" component={Add} />
               <Route path="/features" component={Features} />
+              <Route path="/stream" component={Stream} />
               <Route path="*" component={NotFound} />
             </Switch>
 

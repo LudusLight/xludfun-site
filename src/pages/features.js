@@ -38,12 +38,7 @@ class App extends Component {
             </div>
           </div>
           <div className="col-md-6">
-            <h3>
-              Multi-channel Music{' '}
-              <small style={{ fontWeight: '300' }}>
-                <i>Coming Soon</i>
-              </small>
-            </h3>
+            <h3>Multi-channel Music</h3>
             <p>Play music in multiple voice channels at once.</p>
           </div>
         </section>

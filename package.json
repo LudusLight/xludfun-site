@@ -2,7 +2,7 @@
   "name": "zero",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://viavbot.org/",
+  "homepage": "http://viav.app/",
   "devDependencies": {
     "gh-pages": "^1.1.0"
   },
