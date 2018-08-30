@@ -12,15 +12,14 @@ class App extends Component {
           <br />
           <br />
           <h2 className="App-title">The Ultimate Voice Channel Upgrade</h2>
-          <p style={{ maxWidth: '500px', margin: 'auto' }}>
+          <p style={{ maxWidth: '450px', margin: 'auto' }}>
             Viav is an{' '}
             <b>
               <a target="_blank" href="https://github.com/BrandonDyer64/Viav">
                 open source
               </a>
             </b>{' '}
-            Discord bot, and is looking for a home. You looking to adopt?
-            It&#39;s house trained.
+            bot aimed at changing the way we use Discord.
           </p>
         </header>
         <section>

@@ -5,6 +5,8 @@ import Navbar from './components/navbar'
 
 import Home from './pages/home'
 import Add from './pages/add'
+import Login from './pages/login'
+import Dashboard from './pages/dashboard'
 import Features from './pages/features'
 import Stream from './pages/stream'
 import NotFound from './pages/notFound'
@@ -21,6 +23,8 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/add" component={Add} />
+              <Route path="/login" component={Login} />
+              <Route path="/dashboard" component={Dashboard} />
               <Route path="/features" component={Features} />
               <Route path="/stream" component={Stream} />
               <Route path="*" component={NotFound} />

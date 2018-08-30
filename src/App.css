@@ -35,6 +35,16 @@ h3 {
   font-weight: 600;
 }
 
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.btn-link {
+  color: var(--primary);
+  font-weight: 300;
+}
+
 #root {
   height: 100%;
 }
@@ -75,6 +85,10 @@ p {
 a {
   color: var(--primary);
   -webkit-transition: color 0.5s; /* Safari */
+}
+
+pre {
+  color: white;
 }
 
 a:hover {

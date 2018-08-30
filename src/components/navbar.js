@@ -36,26 +36,12 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/stream">
-                  Dev Stream
-                </Link>
-              </li>
-              <li className="nav-item">
                 <a
                   className="nav-link"
                   target="_blank"
                   href="https://discord.gg/EkDSE5e"
                 >
                   Community
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  target="_blank"
-                  href="https://viav.js.org"
-                >
-                  Viav.js
                 </a>
               </li>
             </ul>
@@ -69,22 +55,10 @@ class Navbar extends Component {
                   Donate
                 </a>
               </li>
-              <li>
-                <a
-                  className="nav-link"
-                  target="_blank"
-                  href="https://gitlab.com/brandondyer64/Viav"
-                >
-                  GitHub
-                </a>
-              </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://discordapp.com/oauth2/authorize?client_id=446151195338473485&redirect_uri=https%3A%2F%2Fviav.app%2Fdashboard&response_type=code&scope=identify%20email%20guilds"
-                >
-                  Sign In
-                </a>
+                <Link className="nav-link" to="/login">
+                  Dashboard
+                </Link>
               </li>
             </ul>
           </div>

@@ -23,12 +23,7 @@ class App extends Component {
         </div>
         <br />
         <br />
-        <h4 style={{ textAlign: 'center' }}>
-          Multi-channel Music Bots{' '}
-          <small>
-            <i>Coming Soon</i>
-          </small>
-        </h4>
+        <h4 style={{ textAlign: 'center' }}>Multi-channel Music Bots</h4>
         <div
           className="music-button-section"
           style={{
@@ -74,6 +69,10 @@ class App extends Component {
             Music 5
           </a>
         </div>
+        <br />
+        <p style={{ textAlign: 'center' }}>
+          Check out our <a href="https://viav.app/stream">Dev Stream</a>!
+        </p>
       </div>
     )
   }
