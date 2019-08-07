@@ -7,11 +7,7 @@ class Navbar extends Component {
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img
-              src="https://cdn.discordapp.com/attachments/446202984372895758/450414797952122900/1_round.png"
-              style={{ width: '30px' }}
-            />
-            &nbsp;Viav
+            &nbsp;x.lud.fun
           </Link>
 
           <button
@@ -26,40 +22,17 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/features">
-                  Features
+                <Link to="/join" className="nav-link" to="/join">
+                  join
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/add">
-                  Add
+                <Link className="nav-link" to="/info">
+                  info
                 </Link>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  target="_blank"
-                  href="https://discord.gg/EkDSE5e"
-                >
-                  Community
-                </a>
               </li>
             </ul>
             <ul className="navbar-nav">
-              <li>
-                <a
-                  className="nav-link"
-                  target="_blank"
-                  href="https://www.patreon.com/viav"
-                >
-                  Donate
-                </a>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/login">
-                  Dashboard
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
