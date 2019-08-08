@@ -14,7 +14,7 @@ class App extends Component {
           <div className="col-md-6 info-text">
             <h3>Pure vanilla.</h3>
             <p className="info-text">
-              I really hate servers with a ton of plugins, so the only game changing plugin we have just chanegs how many people have to sleep for it to turn day.
+              I really hate servers with a ton of plugins, so the only game changing plugin we have just changes how many people have to sleep for it to turn day.
             </p>
           </div>
           <div className="col-md-6 info-text">
